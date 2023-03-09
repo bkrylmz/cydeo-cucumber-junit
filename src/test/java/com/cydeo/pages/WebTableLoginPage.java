@@ -40,6 +40,7 @@ public class WebTableLoginPage {
      *This method will log in using credentials from
      * configuration.properties
      */
+
     public void loginWithConfig(){
         inputUsername.sendKeys(ConfigurationReader.getProperty("web.table.username"));
         inputPassword.sendKeys(ConfigurationReader.getProperty("web.table.pw"));
