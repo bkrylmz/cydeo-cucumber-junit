@@ -25,12 +25,14 @@ import org.junit.runner.RunWith;
 
         glue = "com/cydeo/step_definitions",//glue gives PATH to the package of the step_definitions
 
-        dryRun = false, //it determines if we want to execute the step_definitions or not.
+        dryRun = true,
+        //it determines if we want to execute the step_definitions or not.
         // if dryRun is true: dryRun is turned on, and step definitions are turned off(will not run the codes just generate snippets)
         // İf dryRun is false: dryRun is turned off, and step definitions are turned on(will run the all codes)
 
-        tags = "@smoke",
-        publish = true// whe I run this it will enable a fuctionality from cucumber to generate
+        tags = "@wip_bekir",
+        publish = true
+        // when I run this it will enable a fuctionality from cucumber to generate
         // a public link for the report of our final execution of our code
         // click to view your cucumber report's below that is on consol>> https:// reports....
 
