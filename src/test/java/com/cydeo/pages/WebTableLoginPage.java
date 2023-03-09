@@ -37,6 +37,7 @@ public class WebTableLoginPage {
     }
 
     /**
+     *
      *This method will log in using credentials from
      * configuration.properties
      */
